@@ -95,7 +95,7 @@ import MountainGirl from '../assets/community/MountainGirl.png'
     },
   ]
 
-  export const community = [
+  export const communities = [
     {
         _id:"a",
         image:[Taj],

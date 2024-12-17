@@ -4,6 +4,9 @@ import Offers from './Offers'
 import Properties from './Properties'
 import Plan from './Plan'
 import CommunityCard from './CommunityCard'
+import Communities from './Communities'
+import Contact from './Contact'
+import Footer from './Footer'
 
 const Content = () => {
   return (
@@ -12,7 +15,9 @@ const Content = () => {
    <Offers/>
    <Properties/>
    <Plan/>
-   <CommunityCard/>
+   <Communities/>
+   <Contact/>
+   <Footer/>
     </div>
   )
 }
