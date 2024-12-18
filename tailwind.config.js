@@ -8,7 +8,8 @@ module.exports = {
       backgroundImage:{
         'hero':"url('/src/assets/bg-hero.png')",
         'mountain':"url('/src/assets/bg-mountain.png')",
-        'mountains':"url('/src/assets/bg-mountains.png')"
+        'mountains':"url('/src/assets/bg-mountains.png')",
+        'blueMount':"url('/src/assets/blueMountain.png')"
 
       },
       colors: {
