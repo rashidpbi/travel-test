@@ -19,6 +19,24 @@ import Fire from '../assets/community/Fire.png'
 import BeachGirl from '../assets/community/BeachGirl.png'
 import MountainGirl from '../assets/community/MountainGirl.png'
 
+
+import Swiss from '../assets/packages/destinations/swiss.png'
+import Hallstatt from '../assets/packages/destinations/hallstatt.png'
+import Farroe from '../assets/packages/destinations/faroe.png'
+import Innsbruck from '../assets/packages/destinations/innsbruck.png'
+
+
+import Valdi from '../assets/packages/inclusive/valdi.png'
+import Ushuaia from '../assets/packages/inclusive/ushuaia.png'
+import Berchtes from '../assets/packages/inclusive/berchtes.png'
+import Fussen from '../assets/packages/inclusive/fussen.png'
+
+import Mauritius from '../assets/packages/honeymoon/mauritius.png'
+import Havelock from '../assets/packages/honeymoon/havelock.png'
+import Whitsunday from '../assets/packages/honeymoon/whitsunday.png'
+import Maldives from '../assets/packages/honeymoon/maldives.png'
+import { FaR } from 'react-icons/fa6'
+
   export const destinations = [
     {
         _id: "a",
@@ -118,7 +136,7 @@ import MountainGirl from '../assets/community/MountainGirl.png'
         p2:"155,073 travelers"
     },
     {
-        _id:"b",
+        _id:"d",
         image:[MountainGirl],
         name:"Mountains",
         p1:"Travel community",
@@ -126,4 +144,123 @@ import MountainGirl from '../assets/community/MountainGirl.png'
     },
     
   ]
+
+  
+export const mountDestinations = [
+
+    {
+        _id:"a",
+        image:[Swiss],
+        name:"Swiss Apls",
+        rating:"4.7",
+        favourite:true
+    },
+    {
+        _id:"b",
+        image:[Hallstatt],
+        name:"Hallstatt",
+        rating:"4.9",
+        favourite:true
+    },
+    {
+        _id:"c",
+        image:[Farroe],
+        name:"Faroe island",
+        rating:"4.5",
+        favourite:false
+    },
+    {
+        _id:"d",
+        image:[Innsbruck],
+        name:"Innsbruck",
+        rating:"4.8",
+        favourite:false
+    },
+]
+
+export const mountRecents = [
+
+    
+    {
+        _id:"b",
+        image:[Hallstatt],
+        name:"Hallstatt",
+        rating:"4.9",
+        favourite:true
+    },
+   
+    {
+        _id:"d",
+        image:[Innsbruck],
+        name:"Innsbruck",
+        rating:"4.8",
+        favourite:false
+    },
+]
+export const mountInclusive = [
+
+    
+    {
+        _id:"a",
+        image:[Valdi],
+        name:"Val di Funes",
+        rating:"4.7",
+        favourite:false
+    },
+   
+    {
+        _id:"b",
+        image:[Ushuaia],
+        name:"Ushuaia",
+        rating:"4.9",
+        favourite:false
+    },
+    {
+        _id:"c",
+        image:[Berchtes],
+        name:"Berchtestgaden",
+        rating:"4.5",
+        favourite:false
+    },
+    {
+        _id:"d",
+        image:[Fussen],
+        name:"Fussen",
+        rating:"4.8",
+        favourite:false
+    }
+]
+export const mountHoneymoon = [
+
+    
+    {
+        _id:"a",
+        image:[Mauritius],
+        name:"Mauritius",
+        rating:"4.7",
+        favourite:false
+    },
+   
+    {
+        _id:"b",
+        image:[Havelock],
+        name:"Havelock",
+        rating:"4.9",
+        favourite:false
+    },
+    {
+        _id:"c",
+        image:[Whitsunday],
+        name:"Whitsunday Islands",
+        rating:"4.5",
+        favourite:false
+    },
+    {
+        _id:"d",
+        image:[Maldives],
+        name:"Maldives",
+        rating:"4.8",
+        favourite:false
+    }
+]
 

@@ -1,23 +1,25 @@
 import React from 'react'
 import Destinations from './Destinations'
-import Offers from './Offers'
 import Properties from './Properties'
 import Plan from './Plan'
 import CommunityCard from './CommunityCard'
-import Communities from './Communities'
 import Contact from './Contact'
-import Footer from './Footer'
-
+import Container from './Container'
+import { useData } from '../context/DataContext'
+import OfferCard from './OfferCard'
+import { communities } from '../assets/assets'
 const Content = () => {
+  const {offers,Communities} = useData()
+  console.log("offers:",offers)
   return (
     <div>
    <Destinations/>
-   <Offers/>
+   <Container header={"Offers"} datas={offers} Component={OfferCard} />
    <Properties/>
    <Plan/>
-   <Communities/>
+   <Container header={"Connect with other travelers in our community" } datas={communities} Component={CommunityCard}/>
    <Contact/>
-   <Footer/>
+  
     </div>
   )
 }
