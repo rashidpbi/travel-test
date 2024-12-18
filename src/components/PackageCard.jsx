@@ -6,12 +6,16 @@ import { FaCarSide } from "react-icons/fa";
 import { MdOutlineNordicWalking } from "react-icons/md";
 import { BsDot } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa";
-const PackageCard = ({data}) => {
+const PackageCard = ({ data }) => {
   return (
     <div className="flex flex-col  p-4 gap-6  rounded-lg shadow-md mx-6 my-6 ">
       <div className=" relative w-80 h-60 rounded-xl overflow-hidden">
         <img src={data.image} alt="" className="w-full h-full object-cover" />
-        {data.favourite==true?<FaRegHeart className='text-white absolute top-5 right-3 size-8'/>:""}
+        {data.favourite == true ? (
+          <FaRegHeart className="text-white absolute top-5 right-3 size-8" />
+        ) : (
+          ""
+        )}
       </div>
       <div className="flex flex-col   ">
         <div className="flex justify-between font-semibold text-lg">
@@ -25,16 +29,16 @@ const PackageCard = ({data}) => {
           <div className="text-shade">3 Days 4 Nights </div>
           <div className="flex text-shade justify-between">
             <div className="flex flex-col items-center text-xs gap-2">
-              <MdFlight  className="w-8 h-4"/>2 Flights
+              <MdFlight className="w-8 h-4" />2 Flights
             </div>
             <div className="flex flex-col items-center text-xs gap-2">
-              <RiHotelFill  className="w-8 h-4" />1 Hotel
+              <RiHotelFill className="w-8 h-4" />1 Hotel
             </div>
             <div className="flex flex-col items-center text-xs gap-2">
-              <FaCarSide   className="w-8 h-4"/>2 Transfers
+              <FaCarSide className="w-8 h-4" />2 Transfers
             </div>
             <div className="flex flex-col items-center text-xs gap-2">
-              <MdOutlineNordicWalking  className="w-8 h-4" />4 actvities
+              <MdOutlineNordicWalking className="w-8 h-4" />4 actvities
             </div>
           </div>
           <div className="flex flex-col text-shade gap-2">
