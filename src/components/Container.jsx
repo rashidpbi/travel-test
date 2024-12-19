@@ -1,7 +1,6 @@
 import React from "react";
 
 const Container = ({ header, datas, Component }) => {
-  console.log("datas:", datas);
   return (
     <div className="my-6  ">
       <div className="text-2xl font-medium  px-6 ">{header}</div>
