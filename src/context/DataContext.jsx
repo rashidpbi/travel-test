@@ -5,7 +5,8 @@ import { useState } from "react";
 const DataContext = createContext()
 export const DataProvider = ({children}) => {
   const [bgImg,setBgImg] = useState("bg-hero")
-      const dataToShare = {destinations,properties,offers,communities,bgImg,setBgImg,mountDestinations,mountRecents,mountInclusive,mountHoneymoon}
+  const [visibleNav, SetVisibleNav] = useState(false);
+      const dataToShare = {destinations,properties,offers,communities,bgImg,setBgImg,mountDestinations,mountRecents,mountInclusive,mountHoneymoon,visibleNav, SetVisibleNav}
 
   return (
     <DataContext.Provider value={dataToShare}>

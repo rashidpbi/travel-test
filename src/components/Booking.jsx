@@ -5,7 +5,7 @@ import { CiSearch } from "react-icons/ci";
 
 const Booking = () => {
   return (
-    <div className="flex flex-col max-w-[1240px] p-6 md:min-w-[1100px]">
+    <div className="flex flex-col max-w-[1240px] p-6 lg:min-w-[1100px]">
       <div
         className="text-white font-bold text-3xl  md:text-7xl
        text-left py-6 "
@@ -19,11 +19,10 @@ const Booking = () => {
         </div>
         <div className="flex gap-8 justify-center items-center w-full bg-stone-400  rounded-full md:rounded-none   opacity-80 py-3 text-white">
           <div className="flex items-center gap-2">
-           
-              <CiCalendar />
-            
-          Check in
-          </div> |
+            <CiCalendar />
+            Check in
+          </div>
+          |
           <div className="flex  items-center gap-2">
             <CiCalendar /> Check out
           </div>
@@ -32,7 +31,9 @@ const Booking = () => {
           <IoIosPerson /> 1 room, 2 adults
         </div>
         <div className="flex justify-center items-center  w-full bg-blue-600  md:bg-stone-400 rounded-full md:rounded-r-xl  md:rounded-l-none   opacity-80 text-white font-medium py-3">
-          <div className="md:border md:px-12 md:py-2 md:rounded-3xl md:text-blue-600 md:bg-white">Search</div>
+          <div className="md:border md:px-12 md:py-2 md:rounded-3xl md:text-blue-600 md:bg-white">
+            Search
+          </div>
         </div>
       </div>
     </div>
