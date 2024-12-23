@@ -10,8 +10,11 @@ import OfferCard from "./OfferCard";
 const Content = () => {
   const { offers, communities } = useData();
   return (
-    <div>
-      <Destinations />
+    <div className="">
+      <div className=" md:transform md:-translate-y-[11vh] ">
+        <Destinations />
+      </div>
+
       <Container header={"Offers"} datas={offers} Component={OfferCard} />
       <Properties />
       <Plan />

@@ -9,7 +9,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className={`md:hidden`}>
+      <div className={`md:hidden p-4`}>
         <div className="flex justify-between ">
           <div>
             <div onClick={onNavClick}>
@@ -31,14 +31,14 @@ const Navbar = () => {
         </div> 
         
       </div>
-      <div className="hidden md:flex justify-between">
-        <div className="flex text-white  text-3xl font-semibold justify-center items-center ">trxvl.</div>
-        <div className={`flex text-white `}>
-              <div className='p-2 m-7 after:block after:h-[2px] hover:after:bg-white after:my-2 cursor-pointer'>Home</div>
-              <div className='p-2 m-7 after:block after:h-[2px] hover:after:bg-white after:my-2 cursor-pointer'>Stays</div>
-              <div className='p-2 m-7 after:block after:h-[2px] hover:after:bg-white after:my-2 cursor-pointer'>Flights</div>
-              <div className='p-2 m-7 after:block after:h-[2px] hover:after:bg-white after:my-2 cursor-pointer'>Packages</div>
-              <div className='p-2 m-7 after:block after:h-[2px] hover:after:bg-white after:my-2 cursor-pointer'>Sign Up</div>
+      <div className="hidden md:flex justify-between pt-6  mx-12  ">
+        <div className="flex text-white  text-3xl font-semibold justify-center items-center  ">trxvl.</div>
+        <div className={`flex gap-8 text-white `}>
+              <div className='  after:block after:h-[2px] hover:after:bg-white after:my-2 cursor-pointer'>Home</div>
+              <div className='  after:block after:h-[2px] hover:after:bg-white after:my-2 cursor-pointer'>Stays</div>
+              <div className='  after:block after:h-[2px] hover:after:bg-white after:my-2 cursor-pointer'>Flights</div>
+              <div className='  after:block after:h-[2px] hover:after:bg-white after:my-2 cursor-pointer'>Packages</div>
+              <div className='  after:block after:h-[2px] hover:after:bg-white after:my-2 cursor-pointer'>Sign Up</div>
           </div>
       </div>
     </>

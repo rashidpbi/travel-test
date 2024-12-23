@@ -1,8 +1,10 @@
 import React from "react";
+import { useData } from "../context/DataContext";
 
 const Container = ({ header, datas, Component }) => {
+  const {bgImg} = useData()
   return (
-    <div className="my-6  ">
+    <div className={`${bgImg=="bg-mountains"?"":"-mt-4"}`}>
       <div className="text-2xl font-medium  px-6 ">{header}</div>
       <div className="flex gap-2 overflow-x-scroll no-scrollbar  ">
         {datas.map((data) => (
