@@ -3,7 +3,7 @@ import React from 'react'
 const Image = ({image}) => {
   return (
     <div
-    className="relative  w-72 h-44 overflow-hidden rounded-lg flex-shrink-0"
+    className="relative  w-80 h-44 overflow-hidden rounded-lg flex-shrink-0"
   >
     <img
       src={image.image}
