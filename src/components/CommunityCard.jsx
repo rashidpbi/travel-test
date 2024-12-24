@@ -2,7 +2,7 @@ import React from 'react'
 const CommunityCard = ({data}) => {
   return (
     
-      <div className='flex flex-col  p-4 gap-7  rounded-lg shadow-md mx-6 my-6 h-96 w-88'>
+      <div className='flex flex-col  p-4 gap-7  rounded-lg shadow-md mx-4 my-6 h-96 w-88'>
       <div className='w-80 h-60 rounded-xl overflow-hidden'>
         <img src={data.image} alt="" className='w-full h-full object-cover' />
       </div>

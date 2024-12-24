@@ -11,7 +11,7 @@ const Content = () => {
   const { offers, communities } = useData();
   return (
     <div className="">
-      <div className=" md:transform md:-translate-y-[11vh] ">
+      <div className=" ">
         <Destinations />
       </div>
 

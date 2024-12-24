@@ -4,9 +4,9 @@ import { useData } from "../context/DataContext";
 const Container = ({ header, datas, Component }) => {
   const {bgImg} = useData()
   return (
-    <div className={`${bgImg=="bg-mountains"?"":"-mt-4"}`}>
-      <div className="text-2xl font-medium  px-6 ">{header}</div>
-      <div className="flex gap-2 overflow-x-scroll no-scrollbar  ">
+    <div >
+      <div className={`text-2xl font-medium  px-6  ${header=="Popular Beach Destinations"?"text-black md:text-white mt-4":''}`}>{header}</div>
+      <div className="flex  overflow-x-scroll no-scrollbar  ">
         {datas.map((data) => (
           <div key={data._id}>
             <Component data={data} />

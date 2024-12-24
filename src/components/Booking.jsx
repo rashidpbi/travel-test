@@ -7,12 +7,12 @@ const Booking = () => {
   return (
     <div className="flex p-4 md:p-0 flex-col max-w-[1240px]  lg:min-w-[1100px]">
       <div
-        className="text-white font-bold text-3xl  md:text-7xl pt-12
+        className="text-white font-bold text-3xl  md:text-6xl pt-12
        text-left  "
       >
         The whole world <br /> awaits.
       </div>
-      <div className="flex flex-col md:flex-row gap-y-4 md:gap-y-0 pt-12 ">
+      <div className="flex flex-col md:flex-row gap-y-4 md:gap-y-0 pt-8 ">
         <div className="flex justify-center items-center w-full bg-stone-400  rounded-full md:rounded-l-xl  md:rounded-r-none opacity-80 py-3 text-white  gap-x-2">
           <CiSearch className="" />
           Search destinations, hotels

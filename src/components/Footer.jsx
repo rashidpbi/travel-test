@@ -22,7 +22,7 @@ const Footer = () => {
               <div className="flex flex-col md:flex-row">
                 <div className="flex flex-col  mx-auto  w-[70vw] md:w-[20vw] text-center  m-7  gap-3">
                   <div>Self Betimes</div>
-                  <div>Yatirmici iliskileri </div>
+                  <div>Yatırımcı İlişkileri </div>
                   <div>Basal Himmler</div>
                 </div>
                 <div className="flex flex-col mx-auto w-[70vw] md:w-[20vw] text-center m-7 gap-3">
@@ -32,7 +32,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col mx-auto w-[70vw] md:w-[20vw]   text-center m-7 gap-3 ">
                   <div>Hedge Karla</div>
-                  <div>Mullein Kosullari</div>
+                  <div>Mullein Koşulları</div>
                   <div>Autumnal Bulgier</div>
                 </div>
               </div>

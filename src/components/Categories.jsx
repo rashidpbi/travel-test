@@ -21,11 +21,11 @@ import { NavLink } from "react-router-dom";
 
 const Categories = () => {
   return (
-    <div className="w-full bg-white md:bg-transparent px-6 max-w-[1100px]">
-      <div className="text-2xl font-medium md:text-light my-6">
+    <div className="w-full bg-white md:bg-transparent px-6 max-w-[1100px] ">
+      <div className="text-2xl font-medium md:text-light my-6 ">
         Top Categories
       </div>
-      <div className="flex overflow-scroll no-scrollbar gap-4 md:gap-20 mx-2">
+      <div className="flex overflow-scroll no-scrollbar gap-4 md:gap-20 mx-2  ">
         <NavLink to={"/"}>
           <div className="group flex md:hidden flex-col text-shade gap-4 items-center">
             <img src={Beach} alt="beach" className="" />
