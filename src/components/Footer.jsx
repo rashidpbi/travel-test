@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <div className="text-shade">
           <div className="flex flex-col md:flex-row ">
-            <div className="flex flex-col mx-auto w-[70vw] md:w-[20vw]  md:m-7 items-center gap-3">
+            <div className="flex flex-col items-start  mx-auto w-[70vw] md:w-[20vw]  md:m-7  gap-3">
               <div>Seslendirme ve Alt Jazz</div>
               <div>Media Market</div>
               <div>Gillie</div>
@@ -24,24 +24,24 @@ const Footer = () => {
             </div>
             <div className="flex flex-col ">
               <div className="flex flex-col md:flex-row">
-                <div className="flex flex-col  mx-auto  w-[70vw] md:w-[20vw] text-center  m-7  gap-3">
+                <div className="flex flex-col items-start   mx-auto  w-[70vw] md:w-[20vw] text-center  m-7  gap-3">
                   <div>Self Betimes</div>
                   <div>Yatırımcı İlişkileri </div>
                   <div>Basal Himmler</div>
                 </div>
-                <div className="flex flex-col mx-auto w-[70vw] md:w-[20vw] text-center m-7 gap-3">
+                <div className="flex flex-col items-start mx-auto w-[70vw] md:w-[20vw] text-center m-7 gap-3">
                   <div>Yard Market</div>
                   <div>Is Imkanlari</div>
                   <div>Car Tercihleri</div>
                 </div>
-                <div className="flex flex-col mx-auto w-[70vw] md:w-[20vw]   text-center m-7 gap-3 ">
+                <div className="flex flex-col items-start  mx-auto w-[70vw] md:w-[20vw]   text-center m-7 gap-3 ">
                   <div>Hedge Karla</div>
                   <div>Mullein Koşulları</div>
                   <div>Autumnal Bulgier</div>
                 </div>
               </div>
               <div className="flex  mx-auto w-[70vw] md:w-[60vw]  m-7 justify-center  md:justify-end">
-                <div className="flex gap-7   md:w-[15vw]  justify-between   md:mr-16">
+                <div className="flex gap-7   md:w-[15vw]  justify-between   md:mr-28">
                   <FaFacebookSquare className="size-8 " />
                   <ImInstagram className="size-8 " />
                   <FaTwitter className="size-8 " />
