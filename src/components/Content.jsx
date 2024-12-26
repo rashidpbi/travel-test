@@ -10,19 +10,21 @@ import OfferCard from "./OfferCard";
 const Content = () => {
   const { offers, communities } = useData();
   return (
-    <div className="">
-      <div className=" ">
+    <div className="flex flex-col ">
+      <div className="">
         <Destinations />
-      </div>
 
-      <Container header={"Offers"} datas={offers} Component={OfferCard} />
-      <Properties />
-      <Plan />
-      <Container
-        header={"Connect with other travelers in our community"}
-        datas={communities}
-        Component={CommunityCard}
-      />
+        <Container header={"Offers"} datas={offers} Component={OfferCard} />
+        <Properties />
+        <div>
+          <Plan />
+        </div>
+        <Container
+          header={"Connect with other travelers in our community"}
+          datas={communities}
+          Component={CommunityCard}
+        />
+      </div>
       <Contact />
     </div>
   );

@@ -11,8 +11,9 @@ const Hero = () => {
         <div className=" ">
           <Navbar />
         </div>
-        <div className="md:flex md:flex-col md:h-[80vh] md:items-center  ">
+        <div className="relative md:flex md:flex-col md:h-[80vh] md:items-center   ">
           <Booking />
+
           <Categories />
         </div>
       </div>

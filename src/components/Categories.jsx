@@ -21,7 +21,7 @@ import { NavLink } from "react-router-dom";
 
 const Categories = () => {
   return (
-    <div className="w-full bg-white md:bg-transparent px-6 max-w-[1100px] ">
+    <div className="w-full bg-white md:bg-transparent px-6 max-w-[1100px]">
       <div className="text-2xl font-medium md:text-light my-6 ">
         Top Categories
       </div>

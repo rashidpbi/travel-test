@@ -7,7 +7,7 @@ const Booking = () => {
   return (
     <div className="flex p-4 md:p-0 flex-col max-w-[1240px]  lg:min-w-[1100px]">
       <div
-        className="text-white font-bold text-3xl  md:text-6xl pt-12
+        className="text-white font-bold text-3xl  md:text-6xl pt-8
        text-left  "
       >
         The whole world <br /> awaits.

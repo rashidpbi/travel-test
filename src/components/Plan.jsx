@@ -2,7 +2,7 @@ import React from "react";
 import TravelExpert from "../assets/TravelExpert.png";
 const Plan = () => {
   return (
-    <div className="relative w-10/12 h-52 md:w-10/12  md:h-[438px]  overflow-hidden rounded-lg  mt-20 ml-4 ">
+    <div className="relative w-10/12 h-52 md:w-10/12  md:h-[438px]  overflow-hidden rounded-lg  my-6   ml-6 ">
       <img
         src={TravelExpert}
         alt=""
