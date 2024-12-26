@@ -7,7 +7,7 @@ import { mountHoneymoon, mountInclusive } from "../assets/assets";
 const Mountains = () => {
   const { mountDestinations, mountRecents } = useData();
   return (
-    <div>
+    <div className=" flex flex-col gap-20 md:ml-32 md:mb-32">
       <Container
         header={"Popular Beach Destinations"}
         datas={mountDestinations}

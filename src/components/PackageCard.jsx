@@ -8,7 +8,7 @@ import { BsDot } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa";
 const PackageCard = ({ data }) => {
   return (
-    <div className="flex flex-col  p-4 gap-6  rounded-lg shadow-md mx-4 my-6 bg-white ">
+    <div className="flex flex-col  p-4 gap-6  rounded-lg shadow-md  bg-white  ">
       <div className=" relative w-80 h-60 rounded-xl overflow-hidden ">
         <img src={data.image} alt="" className="w-full h-full object-cover" />
         {data.favourite == true ? (

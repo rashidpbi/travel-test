@@ -45,7 +45,7 @@ const Footer = () => {
                     <FaYoutube className="size-8 "/>
                   </div>
               
-              </div>{" "}
+              </div>
             </div>
           </div>
           <div className=" flex justify-center md:justify-start md:ml-20 my-7 text-center ">1997-2021 Netflix,Inc. {"{i-063d545a099242}"}</div>
