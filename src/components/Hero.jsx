@@ -4,7 +4,6 @@ import Categories from "./Categories";
 
 import Destinations from "./Destinations";
 const Hero = () => {
-
   return (
     <div className="relative ">
       <div>
@@ -17,7 +16,6 @@ const Hero = () => {
           <Categories />
         </div>
       </div>
-      
     </div>
   );
 };

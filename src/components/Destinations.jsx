@@ -6,7 +6,7 @@ const Destinations = () => {
   const { destinations } = useData();
   return (
     <>
-    <Images images={destinations} header={"Top Vacation Destinations"}/>
+      <Images images={destinations} header={"Top Vacation Destinations"} />
     </>
   );
 };
