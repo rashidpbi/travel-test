@@ -3,10 +3,10 @@ import Hero from "../components/Hero";
 import Content from "../components/Content";
 import { Routes, Route } from "react-router-dom";
 import Mountains from "../components/Mountains";
-import Footer from "../components/Footer";
 import { useData } from "../context/DataContext";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import Footer from "../components/Footer";
 const Home = () => {
   const { bgImg, setBgImg } = useData();
   const location = useLocation();
@@ -33,7 +33,7 @@ const Home = () => {
             <Route path="/" element={<Content />} />
           </Routes>
         </div>
-        <Footer />
+        <Footer/>
       </div>
     </div>
   );

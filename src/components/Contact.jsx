@@ -15,16 +15,16 @@ const Contact = () => {
         </div>
       </div>
       <div className="flex flex-col md:w-[80vw]   ">
-        <div className="text-white m-8 md:w-[60vw] ">
+        <div className="text-white m-8">
           <p className="text-3xl font-bold ">Your all-in-one travel app.</p>
-          <p className="mt-4 max-w-[70vw]">
+          <p className="mt-4 ">
             Book flights, hotels, trains & rental cars anywhere in the world in
             just seconds. Get real-time flight updates, travel info, exclusive
             deals, and 30% more Trip Coins only on the app!
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row md:justify-between gap-4 md:w-[60vw] md:h-[40vh] ">
+        <div className="flex flex-col md:flex-row md:justify-between gap-4  md:h-[40vh] ">
           <div className=" flex flex-col  justify-between mx-8  md:h-[25vh]">
             <div className="flex gap-7 text-white">
               <div className="bg-slate-200 bg-opacity-40 w-[8vw] text-center rounded-2xl p-1">
