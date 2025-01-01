@@ -27,7 +27,7 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row md:justify-between gap-4  md:h-[40vh] ">
           <div className=" flex flex-col  justify-between mx-8  md:h-[25vh]">
             <div className="flex gap-7 text-white">
-              <div className="bg-slate-200 bg-opacity-40 w-[8vw] text-center rounded-2xl p-1">
+              <div className="bg-slate-200 bg-opacity-40 md:w-[8vw] text-center rounded-2xl p-1">
                 Mobile
               </div>
               <div>Email</div>
