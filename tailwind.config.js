@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        hero:`url('/public/bg-hero.png')`,
-        'mountain':"url('/src/assets/bg-mountain.png')",
-        'mountains':"url('/src/assets/bg-mountains.png')",
+        hero:`url('/bg-hero.png')`,
+        'mountain':"url('/assets/bg-mountain.png')",
+        'mountains':"url('/assets/bg-mountains.png')",
         'blueMount':"url('/src/assets/blueMountain.png')"
 
       },

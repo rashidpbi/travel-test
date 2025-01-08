@@ -21,7 +21,7 @@ const Images = ({ images, header }) => {
           >
             <Image image={image} />
           </div>
-        ))}
+      )) } 
       </div>
     </div>
   );
