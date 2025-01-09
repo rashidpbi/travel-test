@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="relative md:flex md:flex-col md:h-[80vh] md:items-center   ">
           <Booking />
 
-          {/* <Categories /> */}
+          <Categories />
         </div>
       </div>
     </div>
