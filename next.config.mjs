@@ -5,7 +5,7 @@ const nextConfig = {
     images: {
       loader: 'custom',
       
-    },
+    }
   }
    
   export default nextConfig
