@@ -17,6 +17,7 @@ const Home = () => {
   useEffect(() => {
     console.log("pathname:", pathname);
     console.log("bgImg:",bgImg)
+    
     switch (pathname) {
       case "/mountains":
         setBgImg("bg-mountains");
@@ -25,7 +26,7 @@ const Home = () => {
         setBgImg("bg-hero");
         break;
     }
-  }, [pathname, setBgImg]);
+  }, [setBgImg]);
   return (
     <div className="flex flex-col min-h-screen">
       <div className={`relative h-[92vh] ${bgImg}  bg-cover bg-center z-10`}>

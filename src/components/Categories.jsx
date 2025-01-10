@@ -19,11 +19,18 @@ import SkyingW from "../assets/skyingW.png";
 import TropicalW from "../assets/tropicalW.png";
 import { NavLink } from "react-router-dom";
 import Link from 'next/link'
+import { useRouter } from "next/navigation";
+
 const Categories = () => {
+  const router = useRouter();
+  const onCategorySelect = ()=>{
+    console.log("categoru pushed")
+    router.push('/mountains')
+  }
   return (
     <div>
       Categories
-           <Link href={"/dashboard/blog"}>
+           <div  ><button onClick={onCategorySelect}>click me </button>
            <div className="group flex md:hidden flex-col text-shade gap-4 items-center">
              <img src={Beach} alt="beach" className="" />
              <div className="group-hover:after:bg-black group-hover:text-black after:h-[2px] after:block after:my-2">
@@ -36,7 +43,7 @@ const Categories = () => {
                Beaches
              </div>
            </div>
-         </Link>      
+         </div>      
     </div>
     // <div className="w-full bg-white md:bg-transparent px-6 max-w-[1100px]">
     //   <div className="text-2xl font-medium md:text-light my-6 ">
