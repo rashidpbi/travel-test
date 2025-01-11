@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import Beach from "../assets/beach.svg";
 import Desert from "../assets/desert.svg";
@@ -21,29 +22,31 @@ import { NavLink } from "react-router-dom";
 import Link from 'next/link'
 import { useRouter } from "next/navigation";
 
-const Categories = () => {
-  const router = useRouter();
-  const onCategorySelect = ()=>{
-    console.log("categoru pushed")
-    router.push('/mountains')
-  }
+
+const Categories = ({ title }) => {
+  // const router = useRouter();
+  // const onCategorySelect = ()=>{
+  //   console.log("categoru pushed")
+  //   router.push('/mountains')
+  // }
+ 
   return (
     <div>
       Categories
-           <div  ><button onClick={onCategorySelect}>click me </button>
+           <Link  href='/mountains'>
            <div className="group flex md:hidden flex-col text-shade gap-4 items-center">
-             <img src={Beach} alt="beach" className="" />
+             {/* <img src={Beach} alt="beach" className="" /> */}
              <div className="group-hover:after:bg-black group-hover:text-black after:h-[2px] after:block after:my-2">
                Beaches
              </div>
            </div>
            <div className="group hidden md:flex flex-col text-shade gap-4 items-center cursor-pointer">
-             <img src={BeachW} alt="beach" className="" />
+             {/* <img src={BeachW} alt="beach" className="" /> */}
              <div className="group-hover:after:bg-white group-hover:text-white after:h-[2px] after:block after:my-2">
                Beaches
              </div>
            </div>
-         </div>      
+         </Link>      
     </div>
     // <div className="w-full bg-white md:bg-transparent px-6 max-w-[1100px]">
     //   <div className="text-2xl font-medium md:text-light my-6 ">
