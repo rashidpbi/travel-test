@@ -15,7 +15,7 @@ const Content = () => {
       <div className="flex flex-col gap-20 ml-6 md:ml-32 md:mb-32">
         <Destinations />
 
-        {/* <Container header={"Offers"} datas={offers} Component={OfferCard} /> */}
+        <Container header={"Offers"} datas={offers} Component={OfferCard} />
         {/* <Properties /> */}
 
         {/* <Plan /> */}

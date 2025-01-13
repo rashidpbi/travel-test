@@ -1,10 +1,11 @@
 import React from "react";
-
+import Image from 'next/image'
 const OfferCard = ({ data }) => {
+  console.log("data:",data)
   return (
     <div className="flex flex-col md:flex-row p-4 gap-7  rounded-lg shadow-md ">
       <div className="w-80 h-60 rounded-xl overflow-hidden">
-        <img src={data.image} alt="" className="w-full h-full object-cover" />
+        <Image src={data.image[0].src} alt="" className="w-full h-full object-cover" width={300} height={300} />
       </div>
       <div className="flex flex-col  w-80 h-60 justify-between">
         <p className="text-shade">{data.name}</p>

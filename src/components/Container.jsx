@@ -1,8 +1,6 @@
 import React from "react";
-import { useData } from "../context/DataContext";
 
 const Container = ({ header, datas, Component }) => {
-  const { bgImg } = useData();
   return (
     <div className="flex flex-col gap-4 ">
       <div
