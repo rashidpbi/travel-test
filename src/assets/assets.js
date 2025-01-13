@@ -35,6 +35,7 @@ import Mauritius from '../assets/packages/honeymoon/mauritius.png'
 import Havelock from '../assets/packages/honeymoon/havelock.png'
 import Whitsunday from '../assets/packages/honeymoon/whitsunday.png'
 import Maldives from '../assets/packages/honeymoon/maldives.png'
+import { FaR } from 'react-icons/fa6'
 
   export const destinations = [
     {
