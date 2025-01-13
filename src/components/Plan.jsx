@@ -1,9 +1,10 @@
 import React from "react";
-import TravelExpert from "../assets/TravelExpert.png";
+import TravelExpert from "../../public/assets/TravelExpert.png";
+import Image from 'next/image'
 const Plan = () => {
   return (
     <div className="relative w-10/12 h-52 md:w-10/12  md:h-[438px]  overflow-hidden rounded-lg   ">
-      <img
+      <Image
         src={TravelExpert}
         alt=""
         className="absolute  w-full h-full object-cover"

@@ -16,17 +16,17 @@ const Content = () => {
         <Destinations />
 
         <Container header={"Offers"} datas={offers} Component={OfferCard} />
-        {/* <Properties /> */}
+        <Properties />
 
-        {/* <Plan /> */}
+        <Plan />
 
-        {/* <Container
-          header={"Connect with other travelers in our community"}
-          datas={communities}
-          Component={CommunityCard}
-        /> */}
+          <Container
+            header={"Connect with other travelers in our community"}
+            datas={communities}
+            Component={CommunityCard}
+          />
       </div>
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 };

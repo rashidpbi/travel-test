@@ -1,17 +1,19 @@
 import React from "react";
-import iphone from "../assets/iPhone 13 Mockup.png";
-import iphoneFull from "../assets/iPhone full.png";
-import Gplay from "../assets/googleplay.png";
-import AppleStore from "../assets/applestore.png";
+import iphone from "../../public/assets/iPhone 13 Mockup.png";
+import iphoneFull from "../../public/assets/iPhone full.png";
+import Gplay from "../../public/assets/googleplay.png";
+import AppleStore from "../../public/assets/applestore.png";
+import Image from 'next/image'
 const Contact = () => {
+  console.log("iphone:",iphone)
   return (
     <div className=" flex flex-col md:flex-row md:gap-24 bg-mountain bg-cover  bg-center px-20 pt-20 ">
       <div className=" flex items-end  ">
         <div className="hidden md:block mx-auto ">
-          <img src={iphone} alt="" className="" />
+          <img src={iphone.src} alt="" className="" />
         </div>
         <div className="w-60 mx-auto  mt-8  md:hidden">
-          <img src={iphoneFull} alt="" />
+          <Image src={iphoneFull.src} alt="" width={300} height={300}/>
         </div>
       </div>
       <div className="flex flex-col md:w-[80vw]   ">
@@ -51,8 +53,8 @@ const Contact = () => {
           </div>
           <div className="grid divide-x"></div>
           <div className="flex flex-col justify-between gap-7 m-8 md:m-0  md:h-[25vh]">
-            <img src={Gplay} alt="" className="w-56 h-16" />
-            <img src={AppleStore} alt="" className="w-56 h-16 " />
+            <img src={Gplay.src} alt="" className="w-56 h-16" />
+            <img src={AppleStore.src} alt="" className="w-56 h-16 " />
           </div>
         </div>
       </div>

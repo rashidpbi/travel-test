@@ -8,9 +8,9 @@ module.exports = {
     extend: {
       backgroundImage:{
         hero:`url('/bg-hero.png')`,
-        'mountain':"url('/assets/bg-mountain.png')",
-        'mountains':"url('/assets/bg-mountains.png')",
-        'blueMount':"url('/src/assets/blueMountain.png')"
+        'mountain':"url('/bg-mountain.png')",
+        'mountains':"url('/bg-mountains.png')",
+        'blueMount':"url('/blueMountain.png')"
 
       },
       colors: {
