@@ -1,11 +1,20 @@
 // import App from "../../App";
 
-import { ClientOnly } from "./client"
+import Content from "../components/Content"
+import Home from "../pages/Home"
+
+// import { ClientOnly } from "./client"
 
 export function generateStaticParams() {
     return [{ slug: [''] }]
   }
 
 export default function Page(){
-    return <h1><ClientOnly/></h1>
+    return (
+      <div className="">
+        <Home bgImg={"bg-hero"}>
+          <Content/>
+        </Home>
+      </div>
+    )
 }

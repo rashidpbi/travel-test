@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import Destinations from "./Destinations";
 import Properties from "./Properties";
