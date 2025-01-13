@@ -15,18 +15,18 @@ const Content = () => {
       <div className="flex flex-col gap-20 ml-6 md:ml-32 md:mb-32">
         <Destinations />
 
-        <Container header={"Offers"} datas={offers} Component={OfferCard} />
-        <Properties />
+        {/* <Container header={"Offers"} datas={offers} Component={OfferCard} /> */}
+        {/* <Properties /> */}
 
-        <Plan />
+        {/* <Plan /> */}
 
-        <Container
+        {/* <Container
           header={"Connect with other travelers in our community"}
           datas={communities}
           Component={CommunityCard}
-        />
+        /> */}
       </div>
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 };

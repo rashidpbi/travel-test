@@ -1,7 +1,7 @@
 import React from "react";
-import Image from "./Image";
+import ImageComp from "./ImageComp";
 const Images = ({ images, header }) => {
-  console.log("header:", header);
+
   return (
     <div className="w-full  ">
       <div
@@ -19,7 +19,7 @@ const Images = ({ images, header }) => {
             key={image._id}
             className="relative  overflow-hidden rounded-lg shrink-0"
           >
-            <Image image={image} />
+            <ImageComp image={image} />
           </div>
       )) } 
       </div>

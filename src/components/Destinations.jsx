@@ -1,9 +1,8 @@
 import React from "react";
-import { useData } from "../context/DataContext";
 import Images from "./Images";
-
+import { destinations } from "../../public/assets/assets";
 const Destinations = () => {
-  const { destinations } = useData();
+
   return (
     <>
       <Images images={destinations} header={"Top Vacation Destinations"} />
