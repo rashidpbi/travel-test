@@ -6,7 +6,7 @@ const Images = ({ images, header }) => {
     <div className="w-full  ">
       <div
         className={`text-2xl font-medium    ${
-          header == "Top Vacation Destinations"
+          header === "Top Vacation Destinations"
             ? "text-black md:text-white"
             : ""
         } `}

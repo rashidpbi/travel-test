@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { CgMenuLeft } from "react-icons/cg";
 import { MdClose } from "react-icons/md";
 import { useData } from "../context/DataContext";

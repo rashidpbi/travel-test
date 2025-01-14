@@ -5,7 +5,7 @@ const Container = ({ header, datas, Component }) => {
     <div className="flex flex-col gap-4 ">
       <div
         className={`text-2xl font-medium    ${
-          header == "Popular Beach Destinations"
+          header === "Popular Beach Destinations"
             ? "text-black md:text-white mt-4"
             : ""
         }`}
@@ -18,7 +18,7 @@ const Container = ({ header, datas, Component }) => {
             <Component data={data} />
           </div>
         ))}
-        {header == "Recently Viewed" ? (
+        {header === "Recently Viewed" ? (
           <div className="p-6 relative bg-blueMount rounded-lg  shadow-md mx-1 my-1  ">
             <div className="flex flex-col w-80 h-60 rounded-xl text-white gap-6">
               <div className="font-semibold text-2xl">Summer Bonanza!</div>

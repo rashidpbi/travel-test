@@ -2,7 +2,6 @@ import Navbar from "./Navbar";
 import Booking from "./Booking";
 import Categories from "./Categories";
 
-import Destinations from "./Destinations";
 const Hero = () => {
   return (
     <div className="relative ">

@@ -1,4 +1,3 @@
-import Home from "./pages/Home";
 import { DataProvider } from "./context/DataContext";
 function App() {
   return (
