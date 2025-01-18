@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+html {
+  font-size: 16px;
+}
+
+.bg-hero{
+  background-image: url('../web/public/assets/bg-hero.png');
+}
+.bg-mountain{
+  background-image: url('../web/public/assets/bg-mountain.png');
+}
+.bg-mountains{
+  background-image: url('../web/public/assets/bg-mountains.png');
+}
+.bg-blueMount{
+  background-image: url('../web/public/assets/blueMountain.png');
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "./Container";
 import PackageCard from "./PackageCard";
-import { mountHoneymoon,mountDestinations,mountRecents,mountInclusive } from "../../assets/assets";
+import { mountHoneymoon,mountDestinations,mountRecents,mountInclusive } from "../assets/assets";
 
 const Mountains = () => {
 

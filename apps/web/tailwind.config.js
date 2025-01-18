@@ -6,13 +6,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage:{
-        hero:`url('/bg-hero.png')`,
-        'mountain':"url('/bg-mountain.png')",
-        'mountains':"url('/bg-mountains.png')",
-        'blueMount':"url('/blueMountain.png')"
-
-      },
       colors: {
         'light': '#FFFFFFFF',
         'shade':'#999999'
