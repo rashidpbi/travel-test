@@ -19,14 +19,14 @@ html {
 }
 
 .bg-hero{
-  background-image: url('../web/public/assets/bg-hero.png');
+  background-image: url('public/assets/bg-hero.png');
 }
 .bg-mountain{
-  background-image: url('../web/public/assets/bg-mountain.png');
+  background-image: url('public/assets/bg-mountain.png');
 }
 .bg-mountains{
-  background-image: url('../web/public/assets/bg-mountains.png');
+  background-image: url('public/assets/bg-mountains.png');
 }
 .bg-blueMount{
-  background-image: url('../web/public/assets/blueMountain.png');
+  background-image: url('public/assets/blueMountain.png');
 }

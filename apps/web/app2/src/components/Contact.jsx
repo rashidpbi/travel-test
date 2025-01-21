@@ -5,7 +5,6 @@ import Gplay from "../../public/assets/googleplay.png";
 import AppleStore from "../../public/assets/applestore.png";
 import Image from 'next/image'
 const Contact = () => {
-  console.log("iphone:",iphone)
   return (
     <div className=" flex flex-col md:flex-row md:gap-24 bg-mountain bg-cover  bg-center px-20 pt-20 ">
       <div className=" flex items-end  ">

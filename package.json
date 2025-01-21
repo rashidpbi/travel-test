@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "workspaces": [
     "docs",
-    "apps/*"
+    "apps/web/*"
   ],
   "packageManager": "npm@10.7.0"
 }
