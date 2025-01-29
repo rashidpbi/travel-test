@@ -10,9 +10,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@repo/math": "*",
     "next": "15.1.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
+    
   },
   "devDependencies": {
     "postcss": "^8",
