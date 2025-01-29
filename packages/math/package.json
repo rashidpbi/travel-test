@@ -1,0 +1,9 @@
+{
+    "name": "@repo/math",
+    "type": "module",
+    "exports": {
+      "./add": {
+        "default": "./src/add.js"
+      }
+    }
+  }
