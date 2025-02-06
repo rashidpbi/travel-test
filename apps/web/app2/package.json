@@ -22,12 +22,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -42,6 +36,7 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.15",
-    "turbo": "^2.3.3"
+    "turbo": "^2.3.3",
+    "@travel/eslint-config":"*"
   }
 }

@@ -9,7 +9,6 @@
   },
   "workspaces": ["packages/*", "apps/*"],
   "devDependencies": {
-    "@travel/eslint-config":"*",
     "turbo":"latest"
   },
   "packageManager": "pnpm@8.15.4",
