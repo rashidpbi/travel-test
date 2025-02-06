@@ -7,6 +7,11 @@
     "test": "turbo run test",
     "lint": "turbo run lint"
   },
+  "workspaces": ["packages/*", "apps/*"],
+  "devDependencies": {
+    "@travel/eslint-config":"*",
+    "turbo":"latest"
+  },
   "packageManager": "pnpm@8.15.4",
   "engines": {
     "node": ">=18.0.0",
