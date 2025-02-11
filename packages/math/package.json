@@ -1,17 +1,14 @@
 {
-    "name": "@repo/math",
-    "type": "module",
-    "main": "dist/add.js",
-    "types": "dist/add.js",
-    "scripts": {
-    "build": "tsc -p ."
-  },
-  "devDependencies": {
-    "typescript": "^5.0.0"
-  },
-    "exports": {
-      "./add": {
-        "default": "./dist/add.js"
-      }
+  "name": "@repo/math",
+  "type": "module",
+  "main": "dist/add.js",
+  "types": "dist/add.js",
+"devDependencies": {
+  "typescript": "^5.0.0"
+},
+  "exports": {
+    "./add": {
+      "default": "./dist/add.js"
     }
   }
+}
