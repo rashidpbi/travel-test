@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Mountains from '../components/Mountains'
-import Home from '../components/Home'
+import Mountains from '../components/Mountains.tsx'
+import Home from '../components/Home.tsx'
 
 const page = () => {
   return (

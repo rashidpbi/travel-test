@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const ImageComp = ({ image }) => {
+const ImageComp = ({ image }:any) => {
   return (
     <div className="relative  w-80 h-44 overflow-hidden rounded-lg flex-shrink-0">
       <Image

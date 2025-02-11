@@ -1,8 +1,8 @@
 import React from "react";
-import Hero from "../components/Hero";
-import Footer from "../components/Footer";
+import Hero from "./Hero";
+import Footer from "./Footer";
 
-export default function Home({ children, bgImg }) {
+export default function Home({ children, bgImg }:any) {
   return (
     <div className="flex flex-col min-h-screen">
       <div className={`relative h-[92vh] ${bgImg}   bg-cover bg-center z-10`}>

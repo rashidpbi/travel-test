@@ -1,6 +1,6 @@
 import React from "react";
 import ImageComp from "./ImageComp";
-const Images = ({ images, header }) => {
+const Images = ({ images, header }:any) => {
 
   return (
     <div className="w-full  ">
@@ -14,7 +14,7 @@ const Images = ({ images, header }) => {
         {header}
       </div>
       <div className="flex gap-10 overflow-x-scroll no-scrollbar mt-6  w-full  ">
-        {images.map((image) => (
+        {images.map((image:any) => (
           <div
             key={image._id}
             className="relative  overflow-hidden rounded-lg shrink-0"

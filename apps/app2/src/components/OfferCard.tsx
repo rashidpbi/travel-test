@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'next/image'
-const OfferCard = ({ data }) => {
+const OfferCard = ({ data }:any) => {
   return (
     <div className="flex flex-col md:flex-row p-4 gap-7  rounded-lg shadow-md ">
       <div className="w-80 h-60 rounded-xl overflow-hidden">

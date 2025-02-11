@@ -1,6 +1,6 @@
 import React from "react";
 
-const Container = ({ header, datas, Component }) => {
+const Container = ({ header, datas, Component }:any) => {
   return (
     <div className="flex flex-col gap-4 ">
       <div
@@ -13,7 +13,7 @@ const Container = ({ header, datas, Component }) => {
         {header}
       </div>
       <div className="flex  gap-6  overflow-x-scroll no-scrollbar  ">
-        {datas.map((data) => (
+        {datas.map((data:any) => (
           <div key={data._id} className="mx-1 my-1 ">
             <Component data={data} />
           </div>
