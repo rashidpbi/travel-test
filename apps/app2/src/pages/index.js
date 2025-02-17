@@ -6,8 +6,7 @@ import axios from "axios";
 export const getStaticProps = async () => {
   try {
     const response = await axios.get("http://localhost:3200/api/home");
-    const result = await response.data
-
+    const result =  response.data
     return {props:{result: result}}
   } catch (error) {
     console.log(error);

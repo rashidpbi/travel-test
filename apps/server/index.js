@@ -1,39 +1,31 @@
-import express from 'express'
-import cors from 'cors'
-const app = express()
+import express from "express";
+import cors from "cors";
+import { MongoClient } from "mongodb";
+const app = express();
 
-const port  = 3000
-app.use(cors())
-app.get('/',(req,res)=>{
-    res.send('hello world')
+const port = 3000;
+const mongoURI =
+  "mongodb+srv://rashidpbi111:4iXGXnHeFCA0Z1M5@travelcluster.5ky7e.mongodb.net/?retryWrites=true&w=majority&appName=travelCluster";
+app.use(cors());
+app.get("/", (req, res) => {
+  res.send("hello world");
+});
 
-})
-// app.get('/data',(req,res)=>{
-//     res.send([
-//         {
-//             _id: "a",
-//             name: "Hotels",
-//             image:[Hotels],
-    
-//         },
-//         {
-//             _id:"b",
-//             name:"Villas",
-//             image:[Villas]
-//         },
-//         {
-//             _id:"c",
-//             name:"Resorts",
-//             image:[Resorts]
-//         },
-//         {
-//             _id:"d",
-//             name:"Apartments",
-//             image:[Apartments]
-//         }
-//       ])
-// })
+const client = new MongoClient(mongoURI)
 
-app.listen(port,()=>{
-    console.log('listenting to port',port)
-})
+async function run() {
+    try {
+        await client.connect()
+
+        await client.db("admin").command({ping:1})
+        console.log("pinged your deployment. succefuly connected to mongodb")
+    } finally {
+        await client.close();
+    }
+}
+run().catch(console.dir)
+
+
+app.listen(port, () => {
+  console.log("listenting to port", port);
+});
