@@ -1,6 +1,7 @@
 import React from "react";
-import ImageComp from "./ImageComp";
-const Images = ({ images, header }:any) => {
+import Image from "next/image";
+
+const Images = ({ images, header }: any) => {
   return (
     <div className="w-full  ">
       <div
@@ -11,16 +12,29 @@ const Images = ({ images, header }:any) => {
         } `}
       >
         {header}
+        
       </div>
       <div className="flex gap-10 overflow-x-scroll no-scrollbar mt-6  w-full  ">
-        {images.map((image:any) => (
+        {images.map((image: any) => (
           <div
             key={image._id}
             className="relative  overflow-hidden rounded-lg shrink-0"
           >
-            <ImageComp image={image} />
+            <div className="relative  w-80 h-44 overflow-hidden rounded-lg flex-shrink-0">
+              <Image
+                src={image.image}
+                alt="image"
+                className="absolute  w-full h-full object-cover"
+                width={300}
+                height={200}
+                unoptimized={true}
+              />
+              <div className="absolute  text-white left-4 bottom-4">
+                {image.name}
+              </div>
+            </div>
           </div>
-      )) } 
+        ))}
       </div>
     </div>
   );
