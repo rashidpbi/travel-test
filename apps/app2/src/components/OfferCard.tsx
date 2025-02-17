@@ -4,7 +4,7 @@ const OfferCard = ({ data }:any) => {
   return (
     <div className="flex flex-col md:flex-row p-4 gap-7  rounded-lg shadow-md ">
       <div className="w-80 h-60 rounded-xl overflow-hidden">
-        <Image src={data.image[0].src} alt="" className="w-full h-full object-cover" width={300} height={300} />
+        <Image src={data.image} alt="" className="w-full h-full object-cover" width={300} height={300} />
       </div>
       <div className="flex flex-col  w-80 h-60 justify-between">
         <p className="text-shade">{data.name}</p>

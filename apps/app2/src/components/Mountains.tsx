@@ -1,10 +1,10 @@
 import React from "react";
 import Container from "./Container";
 import PackageCard from "./PackageCard";
-import { mountHoneymoon,mountDestinations,mountRecents,mountInclusive } from "../assets/assets";
+const Mountains = ({data}:any) => {
+  const {mountHoneymoon,mountDestinations,mountRecents,mountInclusive} = data
 
-const Mountains = () => {
-
+ 
   return (
     <div className=" flex flex-col gap-20 md:ml-32 md:mb-32">
       <Container

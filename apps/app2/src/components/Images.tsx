@@ -1,7 +1,6 @@
 import React from "react";
 import ImageComp from "./ImageComp";
 const Images = ({ images, header }:any) => {
-
   return (
     <div className="w-full  ">
       <div

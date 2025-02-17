@@ -11,7 +11,7 @@ const PackageCard = ({ data }:any) => {
   return (
     <div className="flex flex-col  p-4 gap-6  rounded-lg shadow-md  bg-white  ">
       <div className=" relative w-80 h-60 rounded-xl overflow-hidden ">
-        <Image src={data.image[0].src} alt="" className="w-full h-full object-cover" width={300} height={300}/>
+        <Image src={data.image} alt="" className="w-full h-full object-cover" width={300} height={300}/>
         {data.favourite === true ? (
           <FaRegHeart className="text-white absolute top-5 right-3 size-8" />
         ) : (
