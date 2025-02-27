@@ -10,23 +10,23 @@ export default function homeHandler(
   res.status(200).send({"destinations":[{
     _id: "a", 
     name: "Bali, Indonesia",
-    image:'https://res.cloudinary.com/dzoo0df0n/image/upload/v1739367758/destinations/Bali_lxbdlk.png',
+    image:'https://res.cloudinary.com/dzoo0df0n/image/upload/v1739774585/travel/destinations/Bali_jiz50v.png',
 
 },
 {
     _id:"b",
     name:"Kerry, Ireland",
-    image:'https://res.cloudinary.com/dzoo0df0n/image/upload/v1739367841/destinations/Kerry_ncqh6j.png'
+    image:'https://res.cloudinary.com/dzoo0df0n/image/upload/v1739774586/travel/destinations/Kerry_vhbryi.png'
 },
 {
     _id:"c",
     name:"Sydney, Australia",
-    image:'https://res.cloudinary.com/dzoo0df0n/image/upload/v1739367843/destinations/Sydney_ybl8j9.png'
+    image:'https://res.cloudinary.com/dzoo0df0n/image/upload/v1739774590/travel/destinations/Sydney_guaqwl.png'
 },
 {
     _id:"d",
     name:"Paris, France",
-    image:'https://res.cloudinary.com/dzoo0df0n/image/upload/v1739367842/destinations/Paris_zztrvb.png'
+    image:'https://res.cloudinary.com/dzoo0df0n/image/upload/v1739774588/travel/destinations/Paris_psridg.png'
 }],
 "properties":[
   {

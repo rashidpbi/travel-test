@@ -6,13 +6,15 @@ import CommunityCard from "./CommunityCard";
 import Contact from "./Contact";
 import Container from "./Container";
 import OfferCard from "./OfferCard";
-
-const Content = ({ data}: any) => {
-  const { destinations ,properties,offers,communities,travelExpert} = data
+const Content = ({ data,destinationsData}: any) => {
+  const { properties,offers,communities,travelExpert} = data
+   const destinations = destinationsData.destinations
+  
   return (
     <div>
+     
       <div className="flex flex-col gap-20 ml-6 md:ml-32 md:mb-32">
-        <Destinations destinations={destinations} />
+        <Destinations destinations={destinations}/>
 
         <Container header={"Offers"} datas={offers} Component={OfferCard} />
         <Properties  properties={properties}/>
@@ -26,6 +28,8 @@ const Content = ({ data}: any) => {
         />
       </div>
       <Contact />
+     
+      
     </div>
   );
 };
